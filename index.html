@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1aaaf223b4.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+    <div class="link-home">
+        <a href="/"><i class="fas fa-home"></i>Home</a>
+    </div>
+
+    <div class="container">
+        <section class="time" id="time">
+            <span id="minutos" >--</span>:<span id="segundos">--</span>
+            
+        </section>
+        <!-- <div class="generaltime">
+            <span id="minutos2" >--</span>:<span id="segundos2" >--</span>
+        </div> -->
+
+        <main class="PrincipalForSpaces">
+    
+            <div class="spaceForResolution" id="espacioParaSolucion">
+                <p id="palabraSolucion">Solución</p>
+            </div>
+    
+            
+            <div class="spaceForProblems" id="espacioParaProblemas">
+                    <h2>¡Vamos futuro cachimbo!</h2>
+                    <img class="logo-pucp" src="./logo/logo-pucp.png" alt="">
+            </div>
+            
+    
+            <div class="correccion" id="espacioParaCorreccion">
+                <p id="palabraCorreccion">Corrección</p>
+            </div>
+    
+        </main>
+    
+    
+        <div class="botones_parte_de_abajo">
+            <button class="b"><i id="retroceder" class="fas fa-chevron-left"></i></button>
+            <section class="botons">
+                <a class="empezar" id="empezar">Empezar</a>
+                
+                <div class="cont-inp-comp" id="boxDeAlternativasYComprobar">
+
+                    <div class="radio" id="radioButtons">
+                        <div>
+                            <input type="radio" name="alternativa" id="A" value="a">
+                            <label for="A">A</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="alternativa" id="B" value="b">
+                            <label for="B">B</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="alternativa" id="C" value="c">
+                            <label for="C">C</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="alternativa" id="D" value="d">
+                            <label for="D">D</label>
+                        </div>
+                    </div>
+
+                    <button class="comprobar" id="comprobar">Comprobar</button>
+                </div>
+            </section>
+            <button class="b"><i id="siguiente" class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+
+    <script src="./javascript/problemas.js"></script>
+    <script src="./javascript/app.js"></script>
+</body>
+</html>
